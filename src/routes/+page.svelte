@@ -1,3 +1,3 @@
-<div class="flex h-screen w-screen items-center justify-center">
-	<h1 class="text-2xl font-bold dark:text-white animate-bounce">Hello World</h1>
-</div>
+<main class="prose xl:prose-xl p-3">
+<h2 class="dark:text-white">Hi, I am Riasat</h2>
+</main>
