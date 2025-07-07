@@ -16,7 +16,9 @@
         }
 	}
 </script>
-
+<svelte:head>
+	<title>Contact Me | Riasat Sk</title>
+</svelte:head>
 <main class="flex justify-center p-3">
 	<div class="flex w-80 flex-col justify-center gap-3 font-sans md:w-96 dark:text-white">
 		<h1 class=" text-center text-2xl font-semibold">Contact Me</h1>
