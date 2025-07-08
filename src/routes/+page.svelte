@@ -1,7 +1,7 @@
 <svelte:head>
 	<title>Riasat's Web Page</title>
 </svelte:head>
-<main class="prose xl:prose-xl p-3 md:px-6 text-white">
+<main class="prose xl:prose-xl p-3 text-white md:px-6">
 	<p>
 		Hi, My name is Riasat Sk, I am from <a
 			class="text-orange-500"
@@ -40,8 +40,7 @@
 	</ul>
 
 	<p>
-		Beside Programming and Work I enjoy reading books📚, playing video Games🎮, listening music🎧
-		and watching movies🎥.
+		Beside Programming I enjoy reading books📚, listening music🎧 and spending time in nature🌳.
 	</p>
 
 	<h2 class="text-white">Social</h2>
