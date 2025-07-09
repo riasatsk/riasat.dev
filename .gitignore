@@ -1,7 +1,6 @@
 node_modules
 /src/generated/prisma
 /prisma/dev.db
-/prisma/migrations/
 # Output
 .output
 .vercel
