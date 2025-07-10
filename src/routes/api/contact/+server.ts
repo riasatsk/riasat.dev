@@ -1,4 +1,4 @@
-import { createContactMessage, getContactMessage } from '$lib/db/crud';
+import { createContactMessage } from '$lib/db/crud';
 import type { RequestHandler } from './$types';
 
 export const POST: RequestHandler = async ({ request }) => {
@@ -36,22 +36,3 @@ export const POST: RequestHandler = async ({ request }) => {
     });
   }
 };
-
-// export const GET: RequestHandler = async () => {
-//   try {
-//     const messages = await getContactMessage();
-
-//     return new Response(JSON.stringify(messages), {
-//       status: 200,
-//       headers: { 'Content-Type': 'application/json' }
-//     });
-
-//   } catch (error) {
-//     console.error('Failed to fetch contact messages:', error);
-
-//     return new Response(JSON.stringify({ error: 'Internal Server Error' }), {
-//       status: 500,
-//       headers: { 'Content-Type': 'application/json' }
-//     });
-//   }
-// };
