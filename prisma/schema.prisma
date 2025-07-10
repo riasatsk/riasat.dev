@@ -5,7 +5,7 @@
 // Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
 
 generator client {
- provider = "prisma-client"
+  provider = "prisma-client"
   output   = "../src/generated/prisma"
 }
 
@@ -22,4 +22,12 @@ model PageView {
   updatedAt DateTime @updatedAt
 
   @@index([url])
+}
+
+model ContactMessage {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  message   String
+  createdAt DateTime @default(now())
 }
